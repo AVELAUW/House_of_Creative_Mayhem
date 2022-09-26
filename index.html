@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,17 +6,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  img{
+    width: 500px;
+  }
+  body, html {
+    height: 100%;
+    width: 100%;
+    background: #F5F5F5;
+    position: absolute;
+  }
+     
+</style>
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>ReevE R</b> Mayhem</a>
+    <a href="#home" class="w3-bar-item w3-button"><b>House of</b> Mayhem</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#about-section" class="w3-bar-item w3-button">About</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
@@ -25,73 +36,63 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img src="images/flying dream.png" alt="Architecture" width="1300" height="900">
+  <img src="images/flying dream.png" class="main" alt="Art" width="1300" height="800">
+  <style>
+    .main{
+      width: 1500px;
+    }
+  </style>
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-black"><span class="w3-padding w3-white w3-opacity-min"><b>RR</b></span> <span class="w3-hide-small w3-text-light-grey">Mayhem</span></h1>
+    <h1 class="w3-xxlarge w3-text-black"><span class="w3-padding w3-white w3-opacity-min"><b>House of</b></span> <span class="w3-hide-small w3-text-light-grey">Mayhem</span></h1>
   </div>
 </header>
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- Project Section -->
+  
+<!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-black w3-padding-16">Projects</h3>
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-blue w3-padding">Walking & flying</div>
-        <img src="images/art2.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-purple w3-padding">P is for...</div>
-        <img src="images/art1.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Blue dog</div>
-        <img src="images/art3.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Joss</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-  </div>
+<!-- Gallery Section -->
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="images/art1.jpg" style="width:100%">
+  <img class="mySlides" src="images/art10.jpg" style="width:100%">
+  <img class="mySlides" src="images/art2.jpg" style="width:100%">
+  <img class="mySlides" src="images/art3.jpg" style="width:100%">
+  <img class="mySlides" src="images/art7.jpg" style="width:100%">
+  <img class="mySlides" src="images/art5.jpg" style="width:100%">
+  <img class="mySlides" src="images/art6.jpg" style="width:100%">
+  <img class="mySlides" src="images/art8.jpg" style="width:100%">
+  <img class="mySlides" src="images/art9.jpg" style="width:100%">
+  
+  
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">XXXXXXXXX</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">XXXXXXX</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Dream Dance</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Mermingo</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-  </div>
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
